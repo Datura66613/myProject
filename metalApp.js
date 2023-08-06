@@ -3,7 +3,8 @@ const readline = require('readline').createInterface({
     output: process.stdout
 });
 
-readline.question('Who are you?', name => {
-    console.log(`Hey there ${name}!`);
+operation = readline.question('Як тебе звати?', name => {
+    console.log(`Hey there ${name}!, що виберете?`);
+
     readline.close();
 });
