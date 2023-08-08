@@ -14,6 +14,7 @@
 
 
 //Встановив модуль (npm install prompt-sync) in the terminal
+
 const prompt = require('prompt-sync')();
 const nark = "наркуша"
 const inputAge = prompt("Чувак, кіко років маш?:");
