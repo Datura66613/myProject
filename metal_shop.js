@@ -16,7 +16,7 @@
 //Встановив модуль (npm install prompt-sync) in the terminal
 
 const prompt = require('prompt-sync')();
-const nark = "наркуша"
+const chel = "чуваак"
 const inputAge = prompt("Чувак, кіко років маш?:");
 if (inputAge < 18) {
     console.log("Малий втсуписі звідси, не пали контору!!!")
@@ -24,12 +24,12 @@ if (inputAge < 18) {
     console.log("Оооо, ніштяяяяккк, якщо тобі " + inputAge + "=))" );
     console.log("Шо хочеш?");
     console.log("1. Трави");
-    console.log("2. Маку");
+    console.log("2. Водки");
 
-const product = prompt("Зроби свій вибір, " + nark + ": ");
+const product = prompt("Зроби свій вибір, " + chel + ": ");
 if(product == 1) {
   console.log("Можемо забити косячок прямо тут")}
 else {
-    console.log("Вдаримо по баяну");
+    console.log("ну по 50");
  }
 }
